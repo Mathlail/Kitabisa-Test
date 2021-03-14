@@ -7,8 +7,12 @@
 
 import Foundation
 
-struct ReviewModel: Codable {
+struct ReviewModel: Codable, Equatable {
     private(set) var id: String?
     private(set) var author: String?
     private(set) var content: String?
+    
+    static func ==(lhs: ReviewModel, rhs: ReviewModel) -> Bool {
+        return lhs.id == rhs.id
+    }
 }

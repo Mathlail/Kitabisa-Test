@@ -14,7 +14,7 @@ final class MovieListPresenter {
     private unowned let _view: MovieListViewInterface
     private let _wireframe: MovieListWireframeInterface
     private let _interactor: MovieListInteractorInterface
-    private var _data = [MovieModel]()
+    var _data = [MovieModel]()
     // MARK: - Lifecycle -
 
     init(wireframe: MovieListWireframeInterface, view: MovieListViewInterface, interactor: MovieListInteractorInterface) {
@@ -24,7 +24,9 @@ final class MovieListPresenter {
     }
     
     func requestMovies(type: URLHelper.URLType) {
+        _wireframe.showHUDLoading(true)
         _interactor.requestMovieList(type: type) { [weak self] (result) in
+            self?._wireframe.showHUDLoading(false)
             switch result {
             case .success(let data):
                 self?._data = data

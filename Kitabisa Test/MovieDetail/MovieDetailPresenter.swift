@@ -14,7 +14,7 @@ final class MovieDetailPresenter {
     private unowned let _view: MovieDetailViewInterface
     private let _wireframe: MovieDetailWireframeInterface
     private let _interactor: MovieDetailInteractorInterface
-    private var _movie: MovieModel
+    var _movie: MovieModel
 
     // MARK: - Lifecycle -
 
@@ -27,7 +27,9 @@ final class MovieDetailPresenter {
     
     func requestReviews() {
         guard let id = _movie.id else { return }
+        _wireframe.showHUDLoading(true)
         _interactor.requestReviewList(id: id) { [weak self] (result) in
+            self?._wireframe.showHUDLoading(false)
             switch result {
             case .success(let data):
                 self?._view.showReviews(model: data)

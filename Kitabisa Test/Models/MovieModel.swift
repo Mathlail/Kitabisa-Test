@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MovieModel: Codable {
+struct MovieModel: Codable, Equatable {
     private(set) var id: Int?
     private(set) var title: String?
     private(set) var releaseDate: String?
@@ -22,4 +22,7 @@ struct MovieModel: Codable {
         case image = "poster_path"
     }
     
+    static func ==(lhs: MovieModel, rhs: MovieModel) -> Bool {
+        return lhs.id == rhs.id
+    }
 }

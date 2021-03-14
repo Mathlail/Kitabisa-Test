@@ -14,7 +14,7 @@ final class FavoriteMovieListPresenter {
     private unowned let _view: FavoriteMovieListViewInterface
     private let _wireframe: FavoriteMovieListWireframeInterface
     private let _interactor: FavoriteMovieListInteractorInterface
-    private var _data = [MovieModel]()
+    var _data = [MovieModel]()
 
     // MARK: - Lifecycle -
     

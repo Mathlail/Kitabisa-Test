@@ -3,11 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1B9D7025FDEFCE006BB3A5 /* MovieListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B9D6F25FDEFCE006BB3A5 /* MovieListInteractorTest.swift */; };
 		4C65557525FD433300A0F37D /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65557425FD433300A0F37D /* BottomView.swift */; };
+		4C8C109F25FDF0E10012D759 /* UnitTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C109E25FDF0E10012D759 /* UnitTestHelper.swift */; };
+		4C8C10A425FDF4A40012D759 /* GetPopularMoviesSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C10A325FDF4A40012D759 /* GetPopularMoviesSuccess.json */; };
+		4C8C10AC25FDFBF20012D759 /* GetUpcomingMoviesSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C10A925FDFBF20012D759 /* GetUpcomingMoviesSuccess.json */; };
+		4C8C10AD25FDFBF20012D759 /* GetNowPlayingMoviesSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C10AA25FDFBF20012D759 /* GetNowPlayingMoviesSuccess.json */; };
+		4C8C10AE25FDFBF20012D759 /* GetTopRatedMoviesSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C10AB25FDFBF20012D759 /* GetTopRatedMoviesSuccess.json */; };
+		4C8C10B425FDFEF80012D759 /* MovieDetailInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C10B325FDFEF80012D759 /* MovieDetailInteractorTest.swift */; };
+		4C8C10B825FE0A630012D759 /* GetReviewsSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C8C10B725FE0A630012D759 /* GetReviewsSuccess.json */; };
+		4C8C10BC25FE0CA60012D759 /* FavoriteMovieListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C10BB25FE0CA60012D759 /* FavoriteMovieListInteractorTest.swift */; };
+		4C8C10C025FE0D660012D759 /* FavoriteMovieListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C10BF25FE0D660012D759 /* FavoriteMovieListPresenterTest.swift */; };
+		4C8C10C425FE10DB0012D759 /* MovieDetailPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C10C325FE10DB0012D759 /* MovieDetailPresenterTest.swift */; };
 		4CC6BEAB25FCBB4000179E13 /* MovieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6BEAA25FCBB4000179E13 /* MovieCardView.swift */; };
 		4CC6BEB925FCBE3600179E13 /* MovieDetailInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6BEB425FCBE3600179E13 /* MovieDetailInterfaces.swift */; };
 		4CC6BEBA25FCBE3600179E13 /* MovieDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6BEB525FCBE3600179E13 /* MovieDetailPresenter.swift */; };
@@ -27,8 +38,6 @@
 		4CC845CA25FBDDD1007D316E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC845C925FBDDD1007D316E /* ViewController.swift */; };
 		4CC845CF25FBDDD3007D316E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC845CE25FBDDD3007D316E /* Assets.xcassets */; };
 		4CC845D225FBDDD3007D316E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC845D025FBDDD3007D316E /* LaunchScreen.storyboard */; };
-		4CC845DD25FBDDD4007D316E /* Kitabisa_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC845DC25FBDDD4007D316E /* Kitabisa_TestTests.swift */; };
-		4CC845E825FBDDD4007D316E /* Kitabisa_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC845E725FBDDD4007D316E /* Kitabisa_TestUITests.swift */; };
 		4CC845FF25FBDE3F007D316E /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC845FA25FBDE3F007D316E /* BaseWireframe.swift */; };
 		4CC8460025FBDE3F007D316E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC845FB25FBDE3F007D316E /* Extensions.swift */; };
 		4CC8460125FBDE3F007D316E /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC845FC25FBDE3F007D316E /* PresenterInterface.swift */; };
@@ -44,6 +53,9 @@
 		4CC8462E25FBE738007D316E /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8462D25FBE738007D316E /* MovieModel.swift */; };
 		4CC8463625FBEC37007D316E /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8463525FBEC37007D316E /* URLHelper.swift */; };
 		4CC8464125FBF935007D316E /* BaseResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC8464025FBF935007D316E /* BaseResponseModel.swift */; };
+		4CF81A5125FE1E3A002E000C /* MovieListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF81A5025FE1E3A002E000C /* MovieListPresenterTest.swift */; };
+		7BE803602A652920DD50D932 /* Pods_Kitabisa_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF774B2D256E5AC52840CEB /* Pods_Kitabisa_Test.framework */; };
+		82783858E7525D2549CA4E2B /* Pods_Kitabisa_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC498924F1AE5328684CA9F9 /* Pods_Kitabisa_TestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,17 +66,21 @@
 			remoteGlobalIDString = 4CC845C125FBDDD1007D316E;
 			remoteInfo = "Kitabisa Test";
 		};
-		4CC845E425FBDDD4007D316E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CC845BA25FBDDD1007D316E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CC845C125FBDDD1007D316E;
-			remoteInfo = "Kitabisa Test";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1B9D6F25FDEFCE006BB3A5 /* MovieListInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListInteractorTest.swift; sourceTree = "<group>"; };
 		4C65557425FD433300A0F37D /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		4C8C109E25FDF0E10012D759 /* UnitTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestHelper.swift; sourceTree = "<group>"; };
+		4C8C10A325FDF4A40012D759 /* GetPopularMoviesSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetPopularMoviesSuccess.json; sourceTree = "<group>"; };
+		4C8C10A925FDFBF20012D759 /* GetUpcomingMoviesSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetUpcomingMoviesSuccess.json; sourceTree = "<group>"; };
+		4C8C10AA25FDFBF20012D759 /* GetNowPlayingMoviesSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetNowPlayingMoviesSuccess.json; sourceTree = "<group>"; };
+		4C8C10AB25FDFBF20012D759 /* GetTopRatedMoviesSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetTopRatedMoviesSuccess.json; sourceTree = "<group>"; };
+		4C8C10B325FDFEF80012D759 /* MovieDetailInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailInteractorTest.swift; sourceTree = "<group>"; };
+		4C8C10B725FE0A630012D759 /* GetReviewsSuccess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetReviewsSuccess.json; sourceTree = "<group>"; };
+		4C8C10BB25FE0CA60012D759 /* FavoriteMovieListInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMovieListInteractorTest.swift; sourceTree = "<group>"; };
+		4C8C10BF25FE0D660012D759 /* FavoriteMovieListPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMovieListPresenterTest.swift; sourceTree = "<group>"; };
+		4C8C10C325FE10DB0012D759 /* MovieDetailPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailPresenterTest.swift; sourceTree = "<group>"; };
 		4CC6BEAA25FCBB4000179E13 /* MovieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardView.swift; sourceTree = "<group>"; };
 		4CC6BEB425FCBE3600179E13 /* MovieDetailInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailInterfaces.swift; sourceTree = "<group>"; };
 		4CC6BEB525FCBE3600179E13 /* MovieDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailPresenter.swift; sourceTree = "<group>"; };
@@ -87,11 +103,7 @@
 		4CC845D125FBDDD3007D316E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC845D325FBDDD3007D316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC845D825FBDDD4007D316E /* Kitabisa TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitabisa TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CC845DC25FBDDD4007D316E /* Kitabisa_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitabisa_TestTests.swift; sourceTree = "<group>"; };
 		4CC845DE25FBDDD4007D316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CC845E325FBDDD4007D316E /* Kitabisa TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kitabisa TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CC845E725FBDDD4007D316E /* Kitabisa_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitabisa_TestUITests.swift; sourceTree = "<group>"; };
-		4CC845E925FBDDD4007D316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC845FA25FBDE3F007D316E /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
 		4CC845FB25FBDE3F007D316E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4CC845FC25FBDE3F007D316E /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
@@ -107,6 +119,13 @@
 		4CC8462D25FBE738007D316E /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		4CC8463525FBEC37007D316E /* URLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
 		4CC8464025FBF935007D316E /* BaseResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponseModel.swift; sourceTree = "<group>"; };
+		4CF81A5025FE1E3A002E000C /* MovieListPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListPresenterTest.swift; sourceTree = "<group>"; };
+		8240AAF5AC835F1E46E8CA8F /* Pods-Kitabisa TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitabisa TestTests.release.xcconfig"; path = "Target Support Files/Pods-Kitabisa TestTests/Pods-Kitabisa TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE2110EB66E492EC64FA6CCD /* Pods-Kitabisa TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitabisa TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Kitabisa TestTests/Pods-Kitabisa TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C05B663159D01FFA8420856D /* Pods-Kitabisa Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitabisa Test.debug.xcconfig"; path = "Target Support Files/Pods-Kitabisa Test/Pods-Kitabisa Test.debug.xcconfig"; sourceTree = "<group>"; };
+		CC498924F1AE5328684CA9F9 /* Pods_Kitabisa_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitabisa_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CC76F18F5D12E90616708C /* Pods-Kitabisa Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitabisa Test.release.xcconfig"; path = "Target Support Files/Pods-Kitabisa Test/Pods-Kitabisa Test.release.xcconfig"; sourceTree = "<group>"; };
+		EDF774B2D256E5AC52840CEB /* Pods_Kitabisa_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitabisa_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE803602A652920DD50D932 /* Pods_Kitabisa_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,19 +141,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC845E025FBDDD4007D316E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				82783858E7525D2549CA4E2B /* Pods_Kitabisa_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8C10A225FDF3E40012D759 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C10B725FE0A630012D759 /* GetReviewsSuccess.json */,
+				4C8C10AA25FDFBF20012D759 /* GetNowPlayingMoviesSuccess.json */,
+				4C8C10AB25FDFBF20012D759 /* GetTopRatedMoviesSuccess.json */,
+				4C8C10A925FDFBF20012D759 /* GetUpcomingMoviesSuccess.json */,
+				4C8C10A325FDF4A40012D759 /* GetPopularMoviesSuccess.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
 		4CC6BEA925FCBB1B00179E13 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,8 +207,9 @@
 			children = (
 				4CC845C425FBDDD1007D316E /* Kitabisa Test */,
 				4CC845DB25FBDDD4007D316E /* Kitabisa TestTests */,
-				4CC845E625FBDDD4007D316E /* Kitabisa TestUITests */,
 				4CC845C325FBDDD1007D316E /* Products */,
+				79B78F930BBF5632AEE98A79 /* Pods */,
+				8B01320F0C55137CB95F2D43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,7 +218,6 @@
 			children = (
 				4CC845C225FBDDD1007D316E /* Kitabisa Test.app */,
 				4CC845D825FBDDD4007D316E /* Kitabisa TestTests.xctest */,
-				4CC845E325FBDDD4007D316E /* Kitabisa TestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,19 +244,14 @@
 		4CC845DB25FBDDD4007D316E /* Kitabisa TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				4CC845DC25FBDDD4007D316E /* Kitabisa_TestTests.swift */,
+				4C8C10A225FDF3E40012D759 /* JsonFile */,
+				4CD267A125FDED550038AEE8 /* MovieListTest */,
+				4CD267A025FDED400038AEE8 /* MovieDetailTest */,
+				4CD2679F25FDED220038AEE8 /* FavoriteMovieListTest */,
 				4CC845DE25FBDDD4007D316E /* Info.plist */,
+				4C8C109E25FDF0E10012D759 /* UnitTestHelper.swift */,
 			);
 			path = "Kitabisa TestTests";
-			sourceTree = "<group>";
-		};
-		4CC845E625FBDDD4007D316E /* Kitabisa TestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4CC845E725FBDDD4007D316E /* Kitabisa_TestUITests.swift */,
-				4CC845E925FBDDD4007D316E /* Info.plist */,
-			);
-			path = "Kitabisa TestUITests";
 			sourceTree = "<group>";
 		};
 		4CC845F825FBDE3F007D316E /* MovieList */ = {
@@ -287,6 +308,53 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		4CD2679F25FDED220038AEE8 /* FavoriteMovieListTest */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C10BB25FE0CA60012D759 /* FavoriteMovieListInteractorTest.swift */,
+				4C8C10BF25FE0D660012D759 /* FavoriteMovieListPresenterTest.swift */,
+			);
+			path = FavoriteMovieListTest;
+			sourceTree = "<group>";
+		};
+		4CD267A025FDED400038AEE8 /* MovieDetailTest */ = {
+			isa = PBXGroup;
+			children = (
+				4C8C10B325FDFEF80012D759 /* MovieDetailInteractorTest.swift */,
+				4C8C10C325FE10DB0012D759 /* MovieDetailPresenterTest.swift */,
+			);
+			path = MovieDetailTest;
+			sourceTree = "<group>";
+		};
+		4CD267A125FDED550038AEE8 /* MovieListTest */ = {
+			isa = PBXGroup;
+			children = (
+				4C1B9D6F25FDEFCE006BB3A5 /* MovieListInteractorTest.swift */,
+				4CF81A5025FE1E3A002E000C /* MovieListPresenterTest.swift */,
+			);
+			path = MovieListTest;
+			sourceTree = "<group>";
+		};
+		79B78F930BBF5632AEE98A79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C05B663159D01FFA8420856D /* Pods-Kitabisa Test.debug.xcconfig */,
+				D2CC76F18F5D12E90616708C /* Pods-Kitabisa Test.release.xcconfig */,
+				AE2110EB66E492EC64FA6CCD /* Pods-Kitabisa TestTests.debug.xcconfig */,
+				8240AAF5AC835F1E46E8CA8F /* Pods-Kitabisa TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B01320F0C55137CB95F2D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF774B2D256E5AC52840CEB /* Pods_Kitabisa_Test.framework */,
+				CC498924F1AE5328684CA9F9 /* Pods_Kitabisa_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -294,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC845EC25FBDDD4007D316E /* Build configuration list for PBXNativeTarget "Kitabisa Test" */;
 			buildPhases = (
+				A534FC4D583C81E9B567864B /* [CP] Check Pods Manifest.lock */,
 				4CC845BE25FBDDD1007D316E /* Sources */,
 				4CC845BF25FBDDD1007D316E /* Frameworks */,
 				4CC845C025FBDDD1007D316E /* Resources */,
@@ -311,9 +380,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC845EF25FBDDD4007D316E /* Build configuration list for PBXNativeTarget "Kitabisa TestTests" */;
 			buildPhases = (
+				A9D915AA0698A32D46A5CC94 /* [CP] Check Pods Manifest.lock */,
 				4CC845D425FBDDD4007D316E /* Sources */,
 				4CC845D525FBDDD4007D316E /* Frameworks */,
 				4CC845D625FBDDD4007D316E /* Resources */,
+				7A1B4D0AAA4FB01D82929ED1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -324,24 +395,6 @@
 			productName = "Kitabisa TestTests";
 			productReference = 4CC845D825FBDDD4007D316E /* Kitabisa TestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4CC845E225FBDDD4007D316E /* Kitabisa TestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC845F225FBDDD4007D316E /* Build configuration list for PBXNativeTarget "Kitabisa TestUITests" */;
-			buildPhases = (
-				4CC845DF25FBDDD4007D316E /* Sources */,
-				4CC845E025FBDDD4007D316E /* Frameworks */,
-				4CC845E125FBDDD4007D316E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CC845E525FBDDD4007D316E /* PBXTargetDependency */,
-			);
-			name = "Kitabisa TestUITests";
-			productName = "Kitabisa TestUITests";
-			productReference = 4CC845E325FBDDD4007D316E /* Kitabisa TestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -357,10 +410,7 @@
 					};
 					4CC845D725FBDDD4007D316E = {
 						CreatedOnToolsVersion = 12.1;
-						TestTargetID = 4CC845C125FBDDD1007D316E;
-					};
-					4CC845E225FBDDD4007D316E = {
-						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 						TestTargetID = 4CC845C125FBDDD1007D316E;
 					};
 				};
@@ -380,7 +430,6 @@
 			targets = (
 				4CC845C125FBDDD1007D316E /* Kitabisa Test */,
 				4CC845D725FBDDD4007D316E /* Kitabisa TestTests */,
-				4CC845E225FBDDD4007D316E /* Kitabisa TestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -399,17 +448,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC845E125FBDDD4007D316E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4C8C10AE25FDFBF20012D759 /* GetTopRatedMoviesSuccess.json in Resources */,
+				4C8C10A425FDF4A40012D759 /* GetPopularMoviesSuccess.json in Resources */,
+				4C8C10B825FE0A630012D759 /* GetReviewsSuccess.json in Resources */,
+				4C8C10AC25FDFBF20012D759 /* GetUpcomingMoviesSuccess.json in Resources */,
+				4C8C10AD25FDFBF20012D759 /* GetNowPlayingMoviesSuccess.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A1B4D0AAA4FB01D82929ED1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kitabisa TestTests/Pods-Kitabisa TestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kitabisa TestTests/Pods-Kitabisa TestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kitabisa TestTests/Pods-Kitabisa TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A534FC4D583C81E9B567864B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kitabisa Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D915AA0698A32D46A5CC94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kitabisa TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CC845BE25FBDDD1007D316E /* Sources */ = {
@@ -456,15 +567,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC845DD25FBDDD4007D316E /* Kitabisa_TestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC845DF25FBDDD4007D316E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CC845E825FBDDD4007D316E /* Kitabisa_TestUITests.swift in Sources */,
+				4C8C10C425FE10DB0012D759 /* MovieDetailPresenterTest.swift in Sources */,
+				4C1B9D7025FDEFCE006BB3A5 /* MovieListInteractorTest.swift in Sources */,
+				4C8C10C025FE0D660012D759 /* FavoriteMovieListPresenterTest.swift in Sources */,
+				4CF81A5125FE1E3A002E000C /* MovieListPresenterTest.swift in Sources */,
+				4C8C10B425FDFEF80012D759 /* MovieDetailInteractorTest.swift in Sources */,
+				4C8C109F25FDF0E10012D759 /* UnitTestHelper.swift in Sources */,
+				4C8C10BC25FE0CA60012D759 /* FavoriteMovieListInteractorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,11 +584,6 @@
 			isa = PBXTargetDependency;
 			target = 4CC845C125FBDDD1007D316E /* Kitabisa Test */;
 			targetProxy = 4CC845D925FBDDD4007D316E /* PBXContainerItemProxy */;
-		};
-		4CC845E525FBDDD4007D316E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CC845C125FBDDD1007D316E /* Kitabisa Test */;
-			targetProxy = 4CC845E425FBDDD4007D316E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -613,6 +717,7 @@
 		};
 		4CC845ED25FBDDD4007D316E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05B663159D01FFA8420856D /* Pods-Kitabisa Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -632,6 +737,7 @@
 		};
 		4CC845EE25FBDDD4007D316E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2CC76F18F5D12E90616708C /* Pods-Kitabisa Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -651,9 +757,10 @@
 		};
 		4CC845F025FBDDD4007D316E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2110EB66E492EC64FA6CCD /* Pods-Kitabisa TestTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2G4YL97AU4;
 				INFOPLIST_FILE = "Kitabisa TestTests/Info.plist";
@@ -665,6 +772,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Fajri-Ramadhan.Kitabisa-TestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitabisa Test.app/Kitabisa Test";
@@ -673,9 +781,10 @@
 		};
 		4CC845F125FBDDD4007D316E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8240AAF5AC835F1E46E8CA8F /* Pods-Kitabisa TestTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2G4YL97AU4;
 				INFOPLIST_FILE = "Kitabisa TestTests/Info.plist";
@@ -690,46 +799,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitabisa Test.app/Kitabisa Test";
-			};
-			name = Release;
-		};
-		4CC845F325FBDDD4007D316E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2G4YL97AU4;
-				INFOPLIST_FILE = "Kitabisa TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fajri-Ramadhan.Kitabisa-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Kitabisa Test";
-			};
-			name = Debug;
-		};
-		4CC845F425FBDDD4007D316E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2G4YL97AU4;
-				INFOPLIST_FILE = "Kitabisa TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Fajri-Ramadhan.Kitabisa-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Kitabisa Test";
 			};
 			name = Release;
 		};
@@ -759,15 +828,6 @@
 			buildConfigurations = (
 				4CC845F025FBDDD4007D316E /* Debug */,
 				4CC845F125FBDDD4007D316E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CC845F225FBDDD4007D316E /* Build configuration list for PBXNativeTarget "Kitabisa TestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CC845F325FBDDD4007D316E /* Debug */,
-				4CC845F425FBDDD4007D316E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

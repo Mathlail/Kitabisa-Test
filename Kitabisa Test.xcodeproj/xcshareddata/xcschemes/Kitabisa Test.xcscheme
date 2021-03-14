@@ -38,16 +38,6 @@
                ReferencedContainer = "container:Kitabisa Test.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CC845E225FBDDD4007D316E"
-               BuildableName = "Kitabisa TestUITests.xctest"
-               BlueprintName = "Kitabisa TestUITests"
-               ReferencedContainer = "container:Kitabisa Test.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

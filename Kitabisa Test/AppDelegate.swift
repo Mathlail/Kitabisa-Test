@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().backgroundColor = .white
         UINavigationBar.appearance().prefersLargeTitles = true
         UINavigationBar.appearance().tintColor = .black
-        UserDefaults.standard.removeObject(forKey: "favorites")
         UIBarButtonItem.appearance().setTitleTextAttributes([.foregroundColor: UIColor.clear], for: .normal)
         return true
     }
