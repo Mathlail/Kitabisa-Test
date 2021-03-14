@@ -64,6 +64,7 @@ final class MovieListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCollectionView()
+        setupCategoryButton()
         presenter.viewDidLoad()
         title = "The Movies"
         navigationItem.largeTitleDisplayMode = .never
@@ -81,6 +82,11 @@ final class MovieListViewController: UIViewController {
     
     func setupCollectionView() {
         view.addSubview(collectionView)
+        collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        
+    }
+    
+    func setupCategoryButton() {
         view.addSubview(categoryButton)
         NSLayoutConstraint.activate([
             categoryButton.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -88,8 +94,6 @@ final class MovieListViewController: UIViewController {
             categoryButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             categoryButton.heightAnchor.constraint(equalToConstant: 50),
         ])
-        collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
-        
     }
     
     override func viewDidLayoutSubviews() {

@@ -72,14 +72,13 @@ class MovieDetailPresenterTest: XCTestCase {
     override func setUp() {
         guard let mockResponse = UnitTestHelper.shared.loadJson(fileName: "GetPopularMoviesSuccess.json", type: MovieModel.self), let firstItem = mockResponse.results?.first else { return }
         presenter = MovieDetailPresenter(wireframe: mockWireframe, view: mockView, interactor: mockInteractor, movie: firstItem)
-        UserDefaults.standard.removeObject(forKey: "favorites")
     }
     
     func testLoadedData() {
         presenter?.viewDidLoad()
         XCTAssertEqual(mockInteractor.mockReviewsResponse, mockView.mockReviewsData)
         XCTAssertEqual(presenter?._movie, mockView.mockMovieData)
-        XCTAssertEqual(mockView.mockIsSelected, false)
+        XCTAssertEqual(mockView.mockIsSelected, presenter?.checkIsFavoriteMovie())
     }
     
     func testInsertFavoriteMovieToLocalData() {
